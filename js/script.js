@@ -12,30 +12,33 @@ for (i = 0; i < pokemonList.length; i++) {
 
   if (pokemonHeight >= 1) {
     document.write(
-      pokemonName +
+      '<h1 class="header">' +
+        pokemonName +
         " (height: " +
         pokemonHeight +
         "m) - " +
         "that's a big one" +
-        "<br><br>"
+        "<br><br></h1>"
     );
   } else if (0.5 < pokemonHeight && pokemonHeight < 1) {
     document.write(
-      pokemonName +
+      '<h1 class="header">' +
+        pokemonName +
         " (height: " +
         pokemonHeight +
         "m) - " +
         "that's medium" +
-        "<br><br>"
+        "<br><br></h1>"
     );
   } else {
     document.write(
-      pokemonName +
+      '<h1 class="header">' +
+        pokemonName +
         " (height: " +
         pokemonHeight +
         "m) - " +
         "that's small" +
-        "<br><br>"
+        "<br><br></h1>"
     );
   }
 }
