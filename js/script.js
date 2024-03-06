@@ -1,6 +1,6 @@
 let pokemonList = [
   { name: "Bulbasaur", height: ".7", type: ["grass", "poison"] },
-  { name: "Bulbasaur", height: "1.6", type: "water" },
+  { name: "Blastoise", height: "1.6", type: "water" },
   { name: "Ditto", height: ".3", type: "normal" },
   { name: "Rattata", height: ".3", type: "normal" },
 ];
@@ -19,7 +19,7 @@ for (i = 0; i < pokemonList.length; i++) {
         "that's a big one" +
         "<br><br>"
     );
-  } else if (0.5 <= pokemonHeight && pokemonHeight <= 1) {
+  } else if (0.5 < pokemonHeight && pokemonHeight < 1) {
     document.write(
       pokemonName +
         " (height: " +
