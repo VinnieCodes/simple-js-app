@@ -5,7 +5,7 @@
     { name: "Ditto", height: ".3", type: "normal" },
     { name: "Rattata", height: ".3", type: "normal" },
   ];
-
+  // displays pokemons and their heights
   pokemonList.forEach(function (pokmon) {
     if (pokmon.height >= 1) {
       document.write(
@@ -38,12 +38,27 @@
   });
 })();
 
+// can see the pokemon list and add pokemons
+let pokemonRepository = (function () {
+  let pokemonList = [];
 
-(function () {
-  let pokemonRepository
+  function add(pokemon) {
+    pokemonList.push(pokemon);
+  }
+
+  function getAll() {
+    return pokemonList;
+  }
+
+  return {
+    add: add,
+    getAll: getAll,
+  };
 })();
 
-
+console.log(pokemonRepository.getAll()); // []
+pokemonRepository.add({ name: 'Pikachu' });
+console.log(pokemonRepository.getAll()); // [ { name: 'Pikachu' } ]
 // displays pokemons and their heights
 // for (i = 0; i < pokemonList.length; i++) {
 //   let pokemonHeight = pokemonList[i].height;
