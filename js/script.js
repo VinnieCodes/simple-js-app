@@ -69,6 +69,9 @@ let pokemonRepository = (function () {
       // item.height = details.height;
       // item.types = details.types;
       console.log(pokemon);
+      let pokemonContent = `<img src="${pokemon.imageUrl}"><br>
+<p><b>Height: ${pokemon.height}</b> </p>`;
+      modal.showModal(pokemon.name, pokemonContent);
     });
   }
   return {
