@@ -1,14 +1,14 @@
 .header {
   font-family: sans-serif;
 }
-.btn-class {
+/* .btn-class {
   color: rgb(0, 62, 0);
   padding: 10px 16px;
   background-color: rgb(246, 246, 246);
   border-radius: 2px;
   margin-bottom: 10px;
   border: 2px solid black;
-}
+} */
 
 #modal-container {
   display: none;

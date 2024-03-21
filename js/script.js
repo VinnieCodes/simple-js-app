@@ -20,6 +20,8 @@ let pokemonRepository = (function () {
     button.innerText = pokemon.name;
     button.classList.add("btn-class");
     listpokemon.appendChild(button);
+    // bootstrap
+    $(listpokemon).addClass("list-group-item btn btn-primary");
     pokemonList.appendChild(listpokemon);
     button.addEventListener("click", function (event) {
       showDetails(pokemon);
@@ -91,4 +93,5 @@ pokemonRepository.loadList().then(function () {
   pokemonRepository.getAll().forEach(function (pokemon) {
     pokemonRepository.addListItem(pokemon);
   });
+
 });
