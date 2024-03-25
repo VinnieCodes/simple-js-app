@@ -1,0 +1,1 @@
+View the name, picutre, and height of 150 pokemonsll
