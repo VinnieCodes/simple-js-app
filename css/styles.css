@@ -1,17 +1,10 @@
 .header {
   font-family: sans-serif;
 }
-/* .btn-class {
-  color: rgb(0, 62, 0);
-  padding: 10px 16px;
-  background-color: rgb(246, 246, 246);
-  border-radius: 2px;
-  margin-bottom: 10px;
-  border: 2px solid black;
-} */
 
 #modal-container {
   display: none;
+  width: 100%;
 }
 
 #modal-container.is-visible {
@@ -35,8 +28,8 @@
   text-align: center;
 }
 
-.modal {
-  margin: auto;
+/* .modal {
+  margin: 0px auto;
   display: inline-block;
   box-sizing: border-box;
   background: #fff;
@@ -44,6 +37,7 @@
   width: 100%;
   max-width: 700px;
   text-align: left;
+  height: 350px;
 }
 
 .modal-close {
@@ -61,4 +55,4 @@
 
 .modal p {
   margin-bottom: 0;
-}
+} */
