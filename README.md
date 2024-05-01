@@ -1,5 +1,4 @@
-OBJECTIVE
-To build a small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail.
+OBJECTIVE - To build a small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail.
 
 SUMMARY 
 1. My role in this project was to create the front-end of a web app that would display statistics of 150 pokemon, including name, image, and height. 
