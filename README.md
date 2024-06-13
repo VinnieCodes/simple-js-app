@@ -1,8 +1,30 @@
-OBJECTIVE - To build a small web application with HTML, CSS, and JavaScript that loads data from an external API and enables the viewing of data points in detail.
+# Pokedex App
 
-SUMMARY 
-1. My role in this project was to create the front-end of a web app that would display statistics of 150 pokemon, including name, image, and height. 
-2. One decision I took was using Bootstrap. This was used to provide a user-friendly layout, without the bulk of many css attributes. One of the consequences is the lack of customizability.
-3. If I could do one thing differently, I would add a search in the navbar that would allow the user to search for a specific pokemon.
-4.  Lessons I learned include using an external API, Bootstrap, Immediately invoked function expressions, and much more.
+This project is an online Pokedex application that retrieves data from the PokeAPI. It showcases a list of 150 Pokémon from the API as buttons and allows users to click each button to learn more about the Pokémon.
 
+## Features
+
+- Pokémon Repository: A repository is created using JavaScript to fetch details from the API and display them as button elements.
+- Pokémon Details: Clicking a Pokémon button opens a modal designed with Bootstrap, displaying details such as the Pokémon's name, height, weight, and image.
+
+## Technologies Used
+
+### JavaScript ES6
+
+The app's core functionality is written in JavaScript ES6, ensuring compatibility across most browsers and devices.
+
+### Bootstrap
+
+Bootstrap is utilized for the modals' display and the overall style and responsiveness of the page and its buttons.
+
+### PokeAPI
+
+The PokeAPI is used to retrieve data about the Pokémon. This RESTful API provides information on the Pokémon, including their names, heights, weights, images, and more.
+
+### Prettier and ESLint
+
+Prettier is employed to format the code correctly and highlight any code style errors in JS, CSS, and HTML. ESLint is used to detect functionality errors in JavaScript.
+
+### Other Dependencies
+
+Additional dependencies include the PokeAPI for data retrieval and the use of an Immediately Invoked Function Expression (IIFE) to encapsulate most of the functionality in the JavaScript file.
